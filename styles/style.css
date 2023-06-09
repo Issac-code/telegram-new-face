@@ -16,9 +16,9 @@ body {
     border-radius: 30px;
     background-color: rgb(247, 251, 254);
     width: 80%;
-    height: 300px;
+    height: 600px;
     margin-top: 100px;
-    grid-template-rows: 30% 70%;
+    grid-template-rows: 13% 87%;
 }
 
 header {
@@ -30,6 +30,7 @@ header {
     align-items: center;
     padding: 0 50px;
 }
+
 #logo {
     width: 50px;
     height: 50px;
@@ -41,14 +42,34 @@ header {
     padding: 5px;
     border-radius: 10px;
 }
+
 #profile:hover {
     background-color: #eeeeee;
     transition: all ease-out .2s;
     cursor: pointer;
 }
+
 #profile img {
     width: 50px;
     height: 50px;
     border-radius: 100%;
     margin: 0 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+    padding-bottom: 50px;
+}
+
+.box {
+    background-color: #fcfdff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 20px #f3f7fa;
+}
+
+.box.chatList {
+    width: 30%;
+    margin: 0 15px;
 }
