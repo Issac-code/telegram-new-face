@@ -1,3 +1,5 @@
+@import url(../lib/material-design-icons-3.0.2/iconfont/material-icons.css);
+
 body {
     padding: 0;
     margin: 0;
@@ -16,13 +18,37 @@ body {
     width: 80%;
     height: 300px;
     margin-top: 100px;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 30% 70%;
 }
 
 header {
     display: flex;
-    flex-direction: column;
     background-color: #fff;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+#profile:hover {
+    background-color: #eeeeee;
+    transition: all ease-out .2s;
+    cursor: pointer;
+}
+#profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 0 10px;
 }
