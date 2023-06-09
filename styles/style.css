@@ -1,3 +1,5 @@
+@import url(../lib/material-design-icons-3.0.2/iconfont/material-icons.css);
+
 body {
     padding: 0;
     margin: 0;
@@ -21,7 +23,6 @@ body {
 
 header {
     display: flex;
-    flex-direction: column;
     background-color: #fff;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
