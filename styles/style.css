@@ -120,6 +120,8 @@ main {
 
 .Title {
     font-weight: bold;
+    color: #000;
+    display: block;
 }
 
 .tc {
@@ -141,10 +143,21 @@ main {
     color: #fff;
     padding-top: 3px;
 }
+
 .box.chat {
     display: grid;
     width: 70%;
     margin: 0 15px;
     grid-template-rows: 10% 80% 10%;
     padding: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#headerChat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: paleturquoise;
+    align-items: center;
 }
