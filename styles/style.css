@@ -179,3 +179,15 @@ main {
     font-weight: bold;
     display: block;
 }
+
+#inputChat {
+    display: flex;
+    align-items: center;
+    color: rgb(187, 194, 199);
+}
+
+#inputChat input[type=text] {
+    width: 90%;
+    border:0;
+    background-color: transparent;
+}
