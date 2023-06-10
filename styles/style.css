@@ -141,3 +141,10 @@ main {
     color: #fff;
     padding-top: 3px;
 }
+.box.chat {
+    display: grid;
+    width: 70%;
+    margin: 0 15px;
+    grid-template-rows: 10% 80% 10%;
+    padding: 10px;
+}
