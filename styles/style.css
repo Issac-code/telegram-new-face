@@ -16,9 +16,9 @@ body {
     border-radius: 30px;
     background-color: rgb(247, 251, 254);
     width: 80%;
-    height: 300px;
+    height: 600px;
     margin-top: 100px;
-    grid-template-rows: 30% 70%;
+    grid-template-rows: 13% 87%;
 }
 
 header {
@@ -30,6 +30,7 @@ header {
     align-items: center;
     padding: 0 50px;
 }
+
 #logo {
     width: 50px;
     height: 50px;
@@ -41,14 +42,102 @@ header {
     padding: 5px;
     border-radius: 10px;
 }
+
 #profile:hover {
     background-color: #eeeeee;
     transition: all ease-out .2s;
     cursor: pointer;
 }
+
 #profile img {
     width: 50px;
     height: 50px;
     border-radius: 100%;
     margin: 0 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+    padding-bottom: 50px;
+}
+
+.box {
+    background-color: #fcfdff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 20px #f3f7fa;
+}
+
+.box.chatList {
+    display: grid;
+    width: 30%;
+    margin: 0 15px;
+    padding: 15px;
+    grid-template-rows: 10% 90%;
+}
+
+#searchBar {
+    border: 0;
+    border-radius: 3px;
+    background-color: rgb(247, 251, 254);
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#chats {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    scrollbar-color: rgb(218, 236, 250) #e0e0e0;
+    scrollbar-width: thin;
+}
+
+#chats li {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+#chats li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+.chatInfo {
+    width: 65%;
+}
+
+.Title {
+    font-weight: bold;
+}
+
+.tc {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.count {
+    border-radius: 100%;
+    color: #fff;
+    background-color: rgb(10, 153, 201);
+    padding: 1px 5px;
+    margin-top: 3px;
+}
+
+.active {
+    background-color: dodgerblue;
+    color: #fff;
+    padding-top: 3px;
 }
