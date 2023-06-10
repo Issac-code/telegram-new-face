@@ -161,3 +161,21 @@ main {
     color: paleturquoise;
     align-items: center;
 }
+
+#bodyChat {
+    background-color: rgb(247, 251, 254);
+    display: grid;
+    grid-template-rows: 15% 85%;
+}
+
+#pinnedMessage {
+    background-color: #fff;
+    border-left: 1px solid rgb(10, 153, 201);
+    padding: 10px;
+}
+
+#userSender {
+    color: rgb(10, 153, 201);
+    font-weight: bold;
+    display: block;
+}
